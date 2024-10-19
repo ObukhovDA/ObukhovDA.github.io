@@ -1,0 +1,91 @@
+/* Основные стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Press Start 2P", cursive; /* Примените шрифт к заголовку */
+  }
+  
+  /* Заголовок */
+  header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  body {
+    background-color: #161717;
+    color: #e0f7fa;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    border: solid #e0f7fa;
+  }
+  
+  /* Контейнер */
+  .container {
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  /* Секция проектов */
+  .projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Карточки проектов */
+  .project-card {
+    display: inline-block;
+    background-color: #31ba96;
+    padding: 20px;
+    border: solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px #e3507a;
+  }
+  
+  .project-card h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .project-card p {
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 20px;
+  }
+  
+  /* Кнопки */
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e4a34e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #ff7b7b;
+  }
+  
